@@ -17,6 +17,10 @@ def scrape(url): #funcion que raspa las urls.
 urls = ["a.com", "b.com", "c.com", "d.com"]  #lista de urls que queremos raspar.
 
 ```
+
+<img width="435" alt="Captura de pantalla 2023-03-06 a las 17 17 20" src="https://user-images.githubusercontent.com/91721668/223168782-d65e052d-043f-4c5e-be37-2e3622b3b387.png">
+
+
 #   CÓDIGO SECUENCIAL:
 ```
 import random
@@ -33,7 +37,11 @@ def scrape(url):
         return url, duration
 
 urls = ["a.com", "b.com", "c.com", "d.com"]
+
 ```
+<img width="456" alt="Captura de pantalla 2023-03-06 a las 17 17 32" src="https://user-images.githubusercontent.com/91721668/223168863-fb1e41e4-fd1a-4c3e-87da-90a254c05a42.png">
+
+
 #   CÓDIGO MAIN:
 ```
 from paralelo import *
@@ -85,4 +93,17 @@ if __name__ == "__main__":
 
 ```
 
+1.Captura en el momento de ejecutar el menú:
+<img width="144" alt="Captura de pantalla 2023-03-06 a las 17 18 23" src="https://user-images.githubusercontent.com/91721668/223168912-9a4c3344-190e-4045-bee9-24280d917c2e.png">
+2.Captura ejecutando el paralelo:
+<img width="435" alt="Captura de pantalla 2023-03-06 a las 17 17 20" src="https://user-images.githubusercontent.com/91721668/223168956-39cdcc1c-b9ee-41f9-8d75-c29e5b46795f.png">
+3.Captura ejecutando el secuencial:
 
+<img width="456" alt="Captura de pantalla 2023-03-06 a las 17 17 32" src="https://user-images.githubusercontent.com/91721668/223168983-a0c2dfc1-718a-4da5-a528-b84654e665c5.png">
+
+4.Captura comparando tiempos
+<img width="570" alt="Captura de pantalla 2023-03-06 a las 17 17 43" src="https://user-images.githubusercontent.com/91721668/223169000-3a10d814-4599-44c2-b465-1b7790d3df72.png">
+
+# Conclusión
+
+Como podemos observar, el tiempo en paralelo es mucho menor al secuencial en la mayoría de los casos.
